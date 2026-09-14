@@ -54,4 +54,4 @@ X11 forwarding addresses a different requirement. Instead of forwarding an entir
 
 Bitvise SSH Client can also be used as an FTP-to-SFTP bridge, allowing software that expects an FTP-style interface to exchange files through SFTP. This is valuable when an existing application cannot natively speak SFTP but must communicate with a secure file-transfer endpoint.
 
-For operational environments, these features should be treated as controlled access paths. Use separate connection profiles for different administrative roles, restrict SSH accounts to the required services, and avoid leaving permanent tunnels enabled when they are needed only for a temporary maintenance task.
+In operational environments, these capabilities should be managed as controlled access mechanisms. Use dedicated connection profiles for distinct administrative roles, limit SSH access to only the services required for each task, and disable persistent tunnels when they are not actively needed for temporary maintenance activities.
